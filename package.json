@@ -1,25 +1,25 @@
 {
-  "name": "trinitycore-srp6",
+  "name": "@azerothcore/ac-nodejs-srp6",
   "version": "1.0.3",
-  "description": "Generate verifier for TrinityCore SRP6 authentication.",
+  "description": "Generate verifier for AzerothCore SRP6 authentication.",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./test/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Miorey/trinitycore-srp6.git"
+    "url": "git+https://github.com/azerothcore/azerothcore-srp6.git"
   },
   "keywords": [
-    "TrinityCore",
+    "AzerothCore",
     "SRP6"
   ],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Miorey/trinitycore-srp6/issues"
+    "url": "https://github.com/Miorey/azerothcore-srp6/issues"
   },
-  "homepage": "https://github.com/Miorey/trinitycore-srp6#readme",
+  "homepage": "https://github.com/Miorey/azerothcore-srp6#readme",
   "dependencies": {
     "big-integer": "^1.6.51",
     "bigint-buffer": "^1.1.5",
