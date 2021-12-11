@@ -1,9 +1,11 @@
 {
   "name": "@azerothcore/ac-nodejs-srp6",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Generate verifier for AzerothCore SRP6 authentication.",
   "main": "index.js",
+  "types": "./types/main.d.ts",
   "scripts": {
+    "prepublish": "npx -p typescript tsc index.js --declaration --allowJs --emitDeclarationOnly --outDir types",
     "test": "mocha ./test/"
   },
   "repository": {
@@ -26,6 +28,7 @@
     "crypto": "^1.0.1"
   },
   "devDependencies": {
+    "@types/node": "^16.11.12",
     "eslint": "^7.32.0",
     "mocha": "^8.4.0"
   }
