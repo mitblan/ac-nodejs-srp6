@@ -19,9 +19,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Miorey/azerothcore-srp6/issues"
+    "url": "https://github.com/azerothcore/azerothcore-srp6/issues"
   },
-  "homepage": "https://github.com/Miorey/azerothcore-srp6#readme",
+  "homepage": "https://github.com/azerothcore/azerothcore-srp6#readme",
   "dependencies": {
     "big-integer": "^1.6.51",
     "bigint-buffer": "^1.1.5",
