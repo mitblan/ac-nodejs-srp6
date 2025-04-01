@@ -24,7 +24,7 @@
   "homepage": "https://github.com/azerothcore/azerothcore-srp6#readme",
   "dependencies": {
     "big-integer": "^1.6.51",
-    "bigint-buffer": "^1.1.5",
+    "bigint-buffer": "^1.1.5"
   },
   "devDependencies": {
     "@types/node": "^16.11.12",
