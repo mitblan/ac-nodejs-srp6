@@ -1,7 +1,10 @@
 const bigintBuffer = require(`bigint-buffer`)
 const BigInteger = require(`big-integer`)
 
-const crypto = require(`crypto`)
+// Was receiving warnings about out of date package so I'm seeing if it works with the included node package
+// const crypto = require(`crypto`)
+
+const crypto = require('node:crypto')
 
 function assert_ (val, msg) {
     if (!val) { throw new Error(msg || `assertion`) }
